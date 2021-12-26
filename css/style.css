@@ -223,7 +223,7 @@ main{
                 -ms-transform: translateX(-50%);
                 -o-transform: translateX(-50%);
 }
-        .attribution { font-size: 1rem; text-align: center; }
+        .attribution { font-size: 1rem; text-align: center; color:white; }
         .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (max-width:450px){
