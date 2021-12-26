@@ -24,19 +24,17 @@
 body{
     min-height: 100vh;
     background-color: var(--Very-dark-blue-main);
-    display: flex;
-    justify-content: center;
+    
 }
 
 
 main{
-    margin:5rem 0;
+    margin:5rem auto;
     width:350px;
-    height: fit-content;
     padding:1.2rem;
     background-color: var(--Very-dark-blue-card);
     border-radius: 10px;
-    box-shadow: 0 20px 10px 15px rgb(0, 0, 0, .2),
+    box-shadow: 0 20px 10px 15px rgba(2, 2, 2, 0.2),
     0 20px 10px 45px rgba(7, 7, 7, 0.1);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -148,6 +146,7 @@ main{
                 }
                                 li{
                                     list-style-position: inside;
+                                    
                                 }
                                 .ETH{
                                     list-style-image: url("../images/icon-ethereum.svg");
@@ -222,7 +221,7 @@ main{
                 -ms-transform: translateX(-50%);
                 -o-transform: translateX(-50%);
 }
-        .attribution { font-size: 1rem; text-align: center; color:white; }
+        .attribution { font-size: 1rem; text-align: center;color:white;}
         .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (max-width:450px){
