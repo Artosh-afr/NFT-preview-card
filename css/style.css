@@ -25,6 +25,7 @@ body{
     min-height: 100vh;
     background-color: var(--Very-dark-blue-main);
     display: flex;
+    flex-direction:column;
     justify-content: center;
     align-items: center;
     
